@@ -13,7 +13,7 @@ function App() {
 
       <directionalLight position={[1,1,1]} intensity={10} color={'0x9CDBA6'}/>
 
-      <color attach="background" args={['#F0F0F0']}/>
+      <color attach="background" args={['#282828']}/>
 
       <RotatingCube y={0.01} x={0.01}/>
       {/* <RotatingCube y={1}/> */}

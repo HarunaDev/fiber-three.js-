@@ -19,7 +19,7 @@ function RotatingCube(props) {
             <cylinderGeometry args={[1,1,1]}/>
             <meshLambertMaterial color="#468585" emissive="#468585"/>
 
-            <Sparkles count={1000} scale={4} speed={0.002} size={6} noise={0.2} color={'orange'}/>
+            <Sparkles count={1000} scale={2} speed={0.002} size={6} noise={0.2} color={'orange'}/>
             </mesh>
         </>
     )
